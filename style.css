@@ -48,13 +48,18 @@
 
 
 /*Landing page styles*/
-p{
+p {
     color: #FFFFFF;
 
     font-size: 20px;
 }
 
-.card {
+.menu-sub{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.card{
     align-items: center;
     width: 525px;
     height: 450px;
@@ -68,7 +73,7 @@ p{
     text-align: center;
 }
 
-.nav-bar {
+.nav-bar{
     border: 10px solid #A97A42;
     padding: 20px;
     margin: 20px;
@@ -77,7 +82,7 @@ p{
     float: right;
 }
 
-#nav-banner {
+#nav-banner{
     background-color: #A97A42;
     padding: 20px;
     margin: 10px;
