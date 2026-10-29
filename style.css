@@ -76,12 +76,18 @@ p{
     border-radius: 15px;
     float: right;
 }
+
 #nav-banner {
     background-color: #A97A42;
     padding: 20px;
     margin: 10px;
     border-radius: 15px
 }
+
+ul{
+    color: #FFFFFF;
+}
+
 h1{
     color: #FFFFFF;
 
@@ -92,6 +98,7 @@ h1{
 h2{
     color: #FFFFFF;
 }
+
 h3{
     color: #FFFFFF;
 }
