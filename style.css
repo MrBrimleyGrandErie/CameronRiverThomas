@@ -5,6 +5,24 @@
 
 /*Cameron*/
 
+#menu{
+    color: #FFFFFF;
+
+    font-size: 20px;
+
+    font-weight: 250;
+}
+
+.menu-box{
+    background-color: #000000;
+    border: 5px solid #A97A42;
+    padding: 20px;
+    border-radius: 25px;
+
+    /* Center the entire card */
+    margin: 0;
+}
+
 
 
 
@@ -52,14 +70,6 @@ p{
     color: #FFFFFF;
 
     font-size: 20px;
-}
-
-#menu{
-    color: #FFFFFF;
-
-    font-size: 20px;
-
-    font-weight: 250;
 }
 
 .card{
