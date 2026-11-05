@@ -23,14 +23,10 @@
     margin: 0;
 }
 
-ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    float: left;
-  }
+.sidebyside{
+    display: flex;
+    gap: 15px;
+}
 
 #backstory-title{
     color: #FFFFFF;
