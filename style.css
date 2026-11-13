@@ -81,8 +81,30 @@ a:visited{
     border-radius: 5px;
     height: 25em;
     width: auto;
+    display: inline-flex;
+}
+.reviews {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    display: inline-flex;
 }
 
+.review {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    display: inline-flex;
+}
+
+.review-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-flex;
+}
 
 
 
