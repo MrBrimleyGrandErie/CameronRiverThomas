@@ -61,6 +61,18 @@ a:visited{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+/*
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    height: 10;
+    grid-auto-rows: 100px 100px;
+}
+*/
+
 .nav-box{
     background-color: #000000;
     border: 3px solid #A97A42;
@@ -76,19 +88,47 @@ a:visited{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.button{
-    background-color: transparent;
+.button-box{
+    background-color: #000000;
     border: 3px solid #A97A42;
-
+    width : 7%;
+    padding: 5px;
     border-radius: 10px;
 
-    height: 40px;
-    line-height: 10px;
+    margin-left: auto;
+
+    position: sticky;
+    top: 0;
 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/*Dark mode*/
+.button{
+    background-color: transparent;
+    border: 3px solid #000000;
+
+    border-radius: 10px;
+    
+    /*
+    position: sticky;
+    top: 0px;
+    */
+    
+    margin-left: auto;
+    /* display: block; */
+
+    height: 20px;
+    line-height: 0px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p-button{
+    color: #FFFFFF;
+
+    font-size: 20px;
+}
+
 body.dark-light {
     background-color: #ffffff;
 }
